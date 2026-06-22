@@ -1,7 +1,7 @@
-# 🔐 Encrypted File Vault (`encrypted_file_vault.py`)
+# VaultLock
 
-## 💡 What is it?
-This tool lets you lock any file inside an encrypted vault using a password. Only someone with the correct password can unlock and read the file. The original file is then securely erased so it cannot be recovered.
+## What it does
+VaultLock turns a local file into a password-protected `.vault` file. It derives an encryption key from your password, encrypts the contents, and removes the original file after the vault is written.
 
 ---
 
