@@ -39,7 +39,7 @@ The same steps happen in reverse. If the password is wrong, decryption fails wit
 
 ### Install dependency:
 ```bash
-pip install cryptography
+pip install -r requirements.txt
 ```
 
 ### Encrypt a file:
